@@ -1,0 +1,18 @@
+{
+  "name": "simple-app-demo-york",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack app.js bundle.js",
+    "start": "http-server -a 0.0.0.0 -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "webpack": "^1.14.0"
+  }
+}
